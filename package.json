@@ -1,0 +1,40 @@
+{
+  "name": "blog-front",
+  "version": "1.0.0",
+  "description": "blog-frontend",
+  "main": "index.js",
+
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jb-edzang/blog-front.git"
+  },
+  "author": "jean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jb-edzang/blog-front/issues"
+  },
+  "homepage": "https://github.com/jb-edzang/blog-front#readme",
+  
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.32.0",
+    "eslint-config-next": "^13.1.2",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-react": "^7.32.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.3",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "classnames": "^2.3.2",
+    "formik": "^2.2.9",
+    "next": "^13.1.2",
+    "react-dom": "^18.2.0",
+    "yup": "^0.32.11"
+  }
+}
