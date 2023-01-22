@@ -8,7 +8,7 @@ const FormField = (props) => {
   return (
     <div className="flex flex-col gap-2">
       <Field name={name}>
-        {/* {({ field, form }) => {
+        {({ field, form }) => {
           const handleChange = async (event) => {
             form.setValues({
               [`${name}File`]: event.currentTarget.files[0],
@@ -16,7 +16,7 @@ const FormField = (props) => {
           };
 
           return <Input {...otherProps} {...field} onChange={handleChange} />;
-        }} */}
+        }}
       </Field>
       <ErrorMessage name={props.name} component={FormError} />
     </div>
