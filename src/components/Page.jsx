@@ -15,12 +15,20 @@ const Page = (props) => {
     <div>
       <header className="border-b flex justify-between">
         <h1 className="text-4xl font-bold px-4 py-2">
-          <Link href="">My blog project </Link>
+          <Link href="/">Sample blog project</Link>
         </h1>
         <nav>
           <ul className="flex h-full items-center px-4">
             {session ? (
               <>
+                <li>
+                  <Link
+                    href="/settings"
+                    className="font-bold p-4 hover:underline cursor-pointer"
+                  >
+                    Settings
+                  </Link>
+                </li>
                 <li>
                   <span
                     className="font-bold p-4 hover:underline cursor-pointer"

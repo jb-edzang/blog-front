@@ -1,7 +1,7 @@
 import { useAppContext } from "@/components/AppContext.jsx";
 import Button from "@/components/Button.jsx";
 import FormError from "@/components/FormError.jsx";
-import FormField from "@/components/FormField.jsx";
+import FormField from "@/components/FileFormField.jsx";
 import Page from "@/components/Page";
 import api from "@/services/api.js";
 import { validateEmailOrUsername, validatePassword } from "@/validators.js";
@@ -61,13 +61,13 @@ const SignInPage = () => {
 
   return (
     <Page title="Sign in" small>
-      {/* {errors.length ? (
+      {errors.length ? (
         <div className="rounded-lg border-4 border-red-600 mb-4 flex flex-col gap-4 p-4">
           {errors.map((error) => (
             <FormError key={error}>{error}</FormError>
           ))}
         </div>
-      ) : null} */}
+      ) : null}
       <Formik
         initialValues={initialValues}
         onSubmit={handleSubmit}

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "blog-frontend",
   "main": "index.js",
-
+  "private": true,
   "scripts": {
     "dev": "next dev"
   },
@@ -17,7 +17,6 @@
     "url": "https://github.com/jb-edzang/blog-front/issues"
   },
   "homepage": "https://github.com/jb-edzang/blog-front#readme",
-  
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "eslint": "^8.32.0",
